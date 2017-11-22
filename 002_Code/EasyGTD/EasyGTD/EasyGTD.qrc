@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="EasyGTD">
+    <qresource prefix="/EasyGTD">
+        <file>Resources/icons896.png</file>
     </qresource>
 </RCC>

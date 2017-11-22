@@ -56,6 +56,9 @@
     <ClInclude Include="GeneratedFiles\ui_EasyGTD.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="EasyGTD.h">
@@ -67,8 +70,5 @@
     <CustomBuild Include="EasyGTD.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="EasyGTD.rc" />
   </ItemGroup>
 </Project>
