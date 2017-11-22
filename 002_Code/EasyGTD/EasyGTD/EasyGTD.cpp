@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "EasyGTD.h"
-
+#include "FloatWidget.h"
 void EasyGTD::closeEvent(QCloseEvent *event)
 {
 #ifdef Q_OS_OSX
@@ -52,6 +52,9 @@ EasyGTD::EasyGTD(QWidget *parent)
 	connect(_trayIcon, &QSystemTrayIcon::messageClicked, this, &EasyGTD::messageClicked);
 	connect(_trayIcon, &QSystemTrayIcon::activated, this, &EasyGTD::iconActivated);
 	_trayIcon->show();
+
+	FloatWidget * widget = new FloatWidget(NULL/*this*/);
+	widget->show();
 }
 
 void EasyGTD::createTrayIcon()
