@@ -59,7 +59,7 @@ void EasyGTD::createTrayIcon()
 	QMenu * menu;
 	menu = new QMenu(this);
 	menu->setIcon(QIcon(":/Resources/icons848.png"));
-	QAction * action = new QAction(QString::fromLocal8Bit("提示"),this);
+	QAction * action = new QAction(QStringLiteral("提示"),this);
 	action->setIcon(QIcon(":/Resources/icons848.png"));
 	menu->addAction(action);
 	//_trayIcon->addAction(maximizeAction);
