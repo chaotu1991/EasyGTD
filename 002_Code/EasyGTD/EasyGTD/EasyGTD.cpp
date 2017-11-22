@@ -58,9 +58,9 @@ void EasyGTD::createTrayIcon()
 {
 	QMenu * menu;
 	menu = new QMenu(this);
-	menu->setIcon(QIcon(":/Resources/icons848.png"));
+	menu->setIcon(QIcon("C:/Users/tusup/source/repos/EasyGTD/002_Code/EasyGTD/EasyGTD/Resources/icons848.png"));
 	QAction * action = new QAction(QStringLiteral("ÌבÊ¾"),this);
-	action->setIcon(QIcon(":/Resources/icons848.png"));
+	action->setIcon(QIcon("C:/Users/tusup/source/repos/EasyGTD/002_Code/EasyGTD/EasyGTD/Resources/icons848.png"));
 	menu->addAction(action);
 	//_trayIcon->addAction(maximizeAction);
 	//_trayIcon->addAction(restoreAction);
@@ -69,5 +69,5 @@ void EasyGTD::createTrayIcon()
 
 	_trayIcon = new QSystemTrayIcon(this);
 	_trayIcon->setContextMenu(menu);
-	_trayIcon->setIcon(QIcon(":/Resources/icons848.png"));
+	_trayIcon->setIcon(QIcon("C:/Users/tusup/source/repos/EasyGTD/002_Code/EasyGTD/EasyGTD/Resources/icons848.png"));
 }
